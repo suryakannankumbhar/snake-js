@@ -138,27 +138,4 @@ window.addEventListener('keydown', e => {
         default:
             break;
     }
-    // if(e.key === 'ArrowUp') {
-    //   inputDir.x = 0;
-    //   inputDir.y = -1;
-    //   break;
-    // }
-    // else if(e.key === 'ArrowDown') {
-    //   inputDir.x = 0;
-    //   inputDir.y = 1;
-    //   break;
-    // }
-    // else if(e.key==='ArrowLeft'){
-    //   inputDir.x = -1;
-    //   inputDir.y = 0;
-    //   break;
-    // }
-    // else if(e.key==='ArrowRight'){
-    //   inputDir.x = 1;
-    //   inputDir.y = 0;
-    //   break;
-    // }
-    // else{
-    //   break;
-    // }
 });
