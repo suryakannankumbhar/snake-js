@@ -17,11 +17,11 @@ function main(ctime) {
         return;
     }
     lastPaintTime = ctime;
+    musicSound.play();
     gameEngine();
 }
 
 function isCollide(sArr) {
-    // console.log(sArr[0].x)
     if (sArr[0].x < 1 || sArr[0].x > 18 || sArr[0].y < 1 || sArr[0].y > 18) {
         return true;
     }
